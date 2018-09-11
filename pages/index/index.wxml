@@ -16,6 +16,6 @@
     <view class="drawer_title line left">分享朋友</view>
     <view class="drawer_title line right">生成海报</view>
 
-    <view class="drawer_title clear">取消</view>
+    <view class="drawer_title clear" bindtap="powerDrawer"  data-statu="close">取消</view>
   </view>
 </view>
