@@ -13,8 +13,8 @@
 <view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">
   <!--drawer content-->
   <view class="drawer_content">
-    <view class="drawer_title line left">分享朋友</view>
-    <view class="drawer_title line right">生成海报</view>
+    <view class="drawer_title line left"><image src="/images/wechat.svg" class='svg'></image>分享朋友</view>
+    <view class="drawer_title line right"><image src="/images/pics.svg"  class='svg'></image>生成海报</view>
 
     <view class="drawer_title clear" bindtap="powerDrawer"  data-statu="close">取消</view>
   </view>

@@ -58,3 +58,14 @@ float: right;
 {
   clear:both;
 }
+
+
+.svg
+{
+  width: 30px;
+  height: 30px;
+  display:block;
+text-align: center;
+margin:0 auto;
+
+}
