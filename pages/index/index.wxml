@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<poster config="{{jdConfig}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">
+    <button>生成海报</button>
+</poster>
+
+
+<!--button-->
+<view class="btn" bindtap="powerDrawer" data-statu="open">button</view>
+<!--mask-->
+<view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>
+<!--content-->
+<!--使用animation属性指定需要执行的动画-->
+<view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">
+  <!--drawer content-->
+  <view class="drawer_content">
+    <view class="drawer_title line left">分享朋友</view>
+    <view class="drawer_title line right">生成海报</view>
+
+    <view class="drawer_title clear">取消</view>
+  </view>
+</view>
